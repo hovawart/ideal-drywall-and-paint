@@ -27,6 +27,22 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
+.jumbotron-small {
+    width: 100%;
+    height: 40vh;
+    background-image: url("img/header-overlay.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.jumbotron-heading-small {
+    padding-top: 20vh;
+    font-weight: bold;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
  
 @keyframes fadeInAnimation {
     0% {
@@ -59,4 +75,8 @@
 
 .line-height-taller {
     line-height: 2.5;
+}
+
+.top-row {
+    margin-top: 100px;
 }
